@@ -544,4 +544,47 @@ body.light .project-card{
   text-decoration: none;
   display: inline-block;
 }
+.footer{
+  margin-top: 80px;
+  padding: 25px 20px;
+  background: rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+body.light .footer{
+  background: rgba(0,0,0,0.04);
+  border-top: 1px solid rgba(0,0,0,0.12);
+}
+
+.footer-content{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer-content p{
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.footer-links{
+  display: flex;
+  gap: 18px;
+}
+
+.footer-links a{
+  font-size: 14px;
+  text-decoration: none;
+  color: #4da3ff;
+  font-weight: 600;
+}
+
+.footer-links a:hover{
+  text-decoration: underline;
+}
+
 
